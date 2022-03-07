@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RCB Players</title>
+  </head>
+  <body>
+    <h1>Royal Challengers Bangalore Players List IPL 2022</h1>
+
+    <script type="text/javascript">
+      var arr = [
+        {
+          id: 0,
+          PlayerName: "Virat Kohil",
+          from: "Royal Challengers Bangalore",
+          price: "15.0 Cr",
+          isPlaying: "Playing",
+          description: "Batsman",
+        },
+        {
+          id: 1,
+          PlayerName: "Fab du plessis",
+          from: "Royal Challengers Bangalore",
+          price: "7 Cr",
+          isPlaying: "Playing ",
+          description: "Batsman",
+        },
+        {
+          id: 2,
+          PlayerName: "Dinesh  Kartik",
+          from: "Royal Challengers Bangalore",
+          price: "5.50 Cr",
+          isPlaying: "On-bench ",
+          description: "Batsman",
+        },
+        {
+          id: 3,
+          PlayerName: "Ramandeep Singh",
+          from: "Royal Challengers Bangalore",
+          price: "20.0 L",
+          isPlaying: "On-bench ",
+          description: "Batsman",
+        },
+        {
+          id: 4,
+          PlayerName: "Rahul Buddhi",
+          from: "Royal Challengers Bangalore",
+          price: "20.0 L",
+          isPlaying: "On-bench ",
+          description: "Batsman",
+        },
+        {
+          id: 5,
+          PlayerName: "Anmolpreet Singh",
+          from: "Royal Challengers Bangalore",
+          price: "20.0 L",
+          isPlaying: "On-bench ",
+          description: "Batsman",
+        },
+        {
+          id: 6,
+          PlayerName: "Dewald Brevis",
+          from: "Royal Challengers Bangalore",
+          price: "3.0 Cr",
+          isPlaying: "Playing",
+          description: "Batsman",
+        },
+        {
+          id: 7,
+          PlayerName: "Aryan Juyal",
+          from: "Royal Challengers Bangalore",
+          price: "20.0 L",
+          isPlaying: "On-bench",
+          description: "Batsman",
+        },
+        {
+          id: 8,
+          PlayerName: "Anuj Rawat",
+          from: "Royal Challengers Bangalore",
+          price: "3.40 Cr",
+          isPlaying: "Playing",
+          description: "Batsman",
+        },
+        {
+          id: 9,
+          PlayerName: "Galenn  Maxwell",
+          from: "Royal Challengers Bangalore",
+          price: "11.0 Cr",
+          isPlaying: "Playing",
+          description: "All-rounder",
+        },
+        {
+          id: 10,
+          PlayerName: "David Willey",
+          from: "Royal Challengers Bangalore",
+          price: "2.0 Cr",
+          isPlaying: "On-bench",
+          description: "All-rounder",
+        },
+        {
+          id: 11,
+          PlayerName: "Shahvaz Ahmed",
+          from: "Royal Challengers Bangalore",
+          price: "2.40 Cr",
+          isPlaying: "On-bench",
+          description: "All-rounder",
+        },
+        {
+          id: 12,
+          PlayerName: "Wanindu Saranga",
+          from: "Royal Challengers Bangalore",
+          price: "10.75 Cr",
+          isPlaying: "On-bench",
+          description: "All-rounder",
+        },
+        {
+          id: 13,
+          PlayerName: "Mahipal Lamror",
+          from: "Royal Challengers Bangalore",
+          price: "95 L",
+          isPlaying: "On-bench",
+          description: "All-rounder",
+        },
+        {
+          id: 14,
+          PlayerName: "Tim David",
+          from: "Royal Challengers Bangalore",
+          price: "8.25 Cr",
+          isPlaying: "On-bench",
+          description: "All-rounder",
+        },
+        {
+          id: 15,
+          PlayerName: "Karn Sharma",
+          from: "Royal Challengers Bangalore",
+          price: "50.0 L",
+          isPlaying: "On-bench",
+          description: "Bowler",
+        },
+        {
+          id: 16,
+          PlayerName: "Mohammed Siraj",
+          from: "Royal Challengers Bangalore",
+          price: "7.0 Cr",
+          isPlaying: "Playing",
+          description: "Bowler",
+        },
+        {
+          id: 17,
+          PlayerName: "jason behredogff",
+          from: "Royal Challengers Bangalore",
+          price: "75.0 L",
+          isPlaying: "On-bench",
+          description: "Bowler",
+        },
+        {
+          id: 18,
+          PlayerName: "Siddath Kull",
+          from: "Royal Challengers Bangalore",
+          price: "75 L",
+          isPlaying: "On-bench",
+          description: "Bowler",
+        },
+        {
+          id: 19,
+          PlayerName: "Mayank Markande",
+          from: "Royal Challengers Bangalore",
+          price: "65.0 L",
+          isPlaying: "On-bench",
+          description: "Bowler",
+        },
+        {
+          id: 20,
+          PlayerName: "Harshal Patal",
+          from: "Royal Challengers Bangalore",
+          price: "10.75 Cr",
+          isPlaying: "On-bench",
+          description: "Bowler",
+        },
+        {
+          id: 21,
+          PlayerName: "Josh Hazlewood",
+          from: "Royal Challengers Bangalore",
+          price: "7.75 Cr",
+          isPlaying: "On-bench",
+          description: "Bowler",
+        },
+      ];
+
+      for (i = 0; i < arr.length; i++) {
+        if (arr[i].id < arr.length) {
+          document.write(
+            '<h3 id="slstext">' +
+              "Serial No. : " +
+              arr[i].id +
+              "</h3 >" +
+              '<h3 id="jstext">' +
+              "Team : " +
+              arr[i].from +
+              "<br>" +
+              "Player Name : " +
+              arr[i].PlayerName +
+              "<br>" +
+              "Price : " +
+              arr[i].price +
+              "<br>" +
+              "Playing Status : " +
+              arr[i].isPlaying +
+              "<br>" +
+              "Role : " +
+              arr[i].description +
+              "<br>" +
+              "</h3>"
+          );
+        }
+      }
+
+      //   var x = arr[0].PlayerName;
+      //   document.getElementById("players0").innerHTML = x;
+    </script>
+    <style>
+      #slstext {
+        text-align: left;
+        font-size: 25px;
+        color: blue;
+      }
+      jstext {
+        text-align: center;
+        font-weight: bold;
+        font-size: 30px;
+        color: #000;
+      }
+    </style>
+  </body>
+</html>
